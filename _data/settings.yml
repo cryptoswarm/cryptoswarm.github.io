@@ -1,20 +1,20 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Mokhtar
 logo: 
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+email: mokhtar.mokhtar@outlook.com
+phone: +5147573658
+#address: 125/A, CA Commercial Area, California, USA
+#copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
 - {name: About, link: '/about'}
 - {name: Blog, link: '/blog'}
 - {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+# - {name: Contact, link: '/contact'}
 
 
 #-------------------------------
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Mokhtar <br> Full stack dev
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -76,18 +76,18 @@ work-process:
 
 
 # My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+# team:
+#   - title : "Jack Schenziwe"
+#     image : "assets/images/team/member-1.png"
+#     designation : "Project Manager"
     
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+#   - title : "Julias Carlie"
+#     image : "assets/images/team/member-2.png"
+#     designation : "Web Developer"
     
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+#   - title : "John Doe"
+#     image : "assets/images/team/member-3.png"
+#     designation : "Designer"
 
 
 #-------------------------------
@@ -116,11 +116,8 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
-
+- {name: Bachelor of Software engineering, date: '2018', organization: 'University of Quebec in Montreal UQÀM'}
+- {name: Master of Mecanical engineering, date: '2012', organization: 'University of Algiers'}
 
 #-------------------------------
 # Services Section
@@ -239,20 +236,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Daniel Beaudin"
+    image: "assets/images/testimonial/daniel-beaudin.jpeg"
+    designation : "Conseiller stratégique chez CSPQ - Gouvernement du Québec"
+    content : "Mokhtar a plusieurs connaissances est diverses expériences de travail. Il n'a pas peur des nouvelles expériences et il chemine bien dans les projets agiles. Ce fut un plaisir de contribuer à tes apprentissages et bon succès dans tes futurs projets."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  # - name: "Jesica Gomez"
+  #   image: "assets/images/testimonial/client-1.png"
+  #   designation: "CEO, Funder"
+  #   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  # - name: "Jesica Gomez"
+  #   image: "assets/images/testimonial/client-1.png"
+  #   designation: "CEO, Funder"
+  #   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
 #-------------------------------
@@ -293,4 +290,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: mokhtar.safir@outlook.com
