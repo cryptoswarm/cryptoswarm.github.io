@@ -236,9 +236,9 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -581,4 +581,8 @@ html.transition *:after {
       padding: 8px;
     }
   }
+}
+
+.toggle-container:hover{
+  color: var(--global-hover-color);
 }
