@@ -10,7 +10,9 @@ description: >
   an Angular frontend.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: School
+github: https://github.com/cryptoswarm/CityPulse-Montreal
+github_stars: true
 ---
 
 <!-- Every project has a beautiful feature showcase page.
