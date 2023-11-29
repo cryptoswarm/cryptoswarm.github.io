@@ -33,14 +33,17 @@ layout: default
     <div class="clearfix">
       {{ content }}
     </div>
+    <!-- Resume -->
+    {% if page.resume.show %}
+    {%- include resume.html %}
+    {%- endif %}
     <!-- News -->
-    <!-- {% if page.news -%}
+    {% if page.news -%}
     {%- include news.html %}
-    {%- endif %} -->
+    {%- endif %}
 
     <!-- Selected papers You can the following inside the if statment :  include selected_papers.html -->
     {% if page.selected_papers -%}
-
     {%- endif %}
 
     <!-- Social -->
@@ -49,11 +52,9 @@ layout: default
       <div class="contact-icons">
         {% include social.html %}
       </div>
-
       <div class="contact-note">
         {{ site.contact_note }}
       </div>
-
     </div>
     {%- endif %}
   </article>
