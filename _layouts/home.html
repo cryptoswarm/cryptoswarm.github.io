@@ -60,9 +60,12 @@ layout: default
         {%- include news.html %}
         {%- endif %}
 
-        <!-- {% if page.publications -%}
-    {%- include news.html %}
-    {%- endif %} -->
+        {% if page.latest_posts -%}
+        <h2>
+            <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {%- include latest_posts.html %}
+        {%- endif %}
 
         <!-- Selected papers You can the following inside the if statment :  include selected_papers.html -->
         {% if page.selected_papers -%}
