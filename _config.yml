@@ -3,6 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+greeting: Hey, I'm Mokhtar
 first_name: Mokhtar
 middle_name:
 last_name: Safir
@@ -81,16 +82,33 @@ panelbear_analytics: # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Blog # blog_name will be displayed in your blog page
 blog_nav_title: #blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: #a simple whitespace theme for academics
 permalink: /blog/:year/:title/
+show_blog_content: false
 
 # Pagination
 pagination:
   enabled: true
 
-# Comments
+# Giscus comments (RECOMMENDED)
+# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+giscus:
+  repo: cryptoswarm/cryptoswarm.github.io
+  repo_id: R_kgDOHdZ78A
+  category: General # name of the category under which discussions will be created
+  category_id: DIC_kwDOHdZ78M4CcwiF # leave empty or specify your category_id (see https://giscus.app/)
+  mapping: title # identify discussions by post title
+  strict: 1 # use strict identification mode
+  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
+  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
+  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  emit_metadata: 0
+  lang: en
+  crossorigin: anonymous
+
+# Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
@@ -116,6 +134,11 @@ collections:
     permalink: /projects/:path/
 
 news_limit: 5
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 6 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -255,8 +278,9 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
+    - ".gif"
   output_formats:
-    webp: "-quality 75%"
+    webp: "-quality 85%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -287,6 +311,7 @@ enable_project_categories:
   true # enables categorization of projects into
   # multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
+enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
 # Library versions
