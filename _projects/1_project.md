@@ -8,7 +8,7 @@ description: >
   details about swimming pools, ice rinks, ski
   trails, and more. Built using Python -Flask- and
   an Angular frontend.
-img: assets/img/12.jpg
+img: assets/img/FlaskAngular.png
 importance: 1
 category: School
 github: https://github.com/cryptoswarm/CityPulse-Montreal

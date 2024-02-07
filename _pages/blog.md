@@ -23,11 +23,13 @@ pagination:
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-  {% endif %}
+    <div class="header-bar">
+      <h1>{{ site.blog_name }}</h1>
+      <h2>{{ site.blog_description }}</h2>
+    </div>
+
+{% endif %}
+{% if site.show_blog_content %}
 
 {% if site.display_tags or site.display_categories %}
 
@@ -187,4 +189,8 @@ pagination:
 {% include pagination.html %}
 {% endif %}
 
+{% else %}
+
+  <p>No posts so far...</p>
+ {% endif %}
 </div>
