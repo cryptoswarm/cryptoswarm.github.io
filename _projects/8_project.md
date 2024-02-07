@@ -11,6 +11,7 @@ importance: 1
 category: Fun
 github: https://github.com/cryptoswarm/colourapi
 github_stars: true
+show: true
 ---
 
 Here is the <a href="https://github.com/cryptoswarm/colourapi">Github repository</a>

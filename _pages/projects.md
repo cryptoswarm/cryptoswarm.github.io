@@ -22,14 +22,18 @@ horizontal: false # true # or false
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% if project.show %}
+        {% include projects_horizontal.html %}
+      {%- endif -%}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% if project.show %}
+        {% include projects.html %}
+      {%- endif -%}
     {%- endfor %}
   </div>
   {%- endif -%}
