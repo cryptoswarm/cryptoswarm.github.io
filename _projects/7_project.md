@@ -9,6 +9,7 @@ importance: 1
 category: Fun
 github: https://github.com/cryptoswarm/JUG-Tours
 github_stars: true
+show: true
 ---
 
 Here is the <a href="https://github.com/cryptoswarm/JUG-Tours">Github repository</a>

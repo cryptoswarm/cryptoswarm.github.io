@@ -13,6 +13,7 @@ importance: 1
 category: School
 github: https://github.com/cryptoswarm/CityPulse-Montreal
 github_stars: true
+show: true
 ---
 
 Here is the <a href="https://github.com/cryptoswarm/CityPulse-Montreal">Github repository</a>
