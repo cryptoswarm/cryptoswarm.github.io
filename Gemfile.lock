@@ -23,6 +23,9 @@ GEM
     citeproc-ruby (1.1.14)
       citeproc (~> 1.0, >= 1.0.9)
       csl (~> 1.6)
+    classifier-reborn (2.3.0)
+      fast-stemmer (~> 1.0)
+      matrix (~> 0.4)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
@@ -33,6 +36,7 @@ GEM
     csl-styles (1.0.1.11)
       csl (~> 1.0)
     cssminify2 (2.0.1)
+    deep_merge (1.2.2)
     drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
@@ -40,6 +44,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.9.1)
+    fast-stemmer (1.0.2)
     feedjira (3.2.2)
       loofah (>= 2.3.1)
       sax-machine (>= 1.0)
@@ -75,13 +80,16 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
-    jekyll-diagrams (0.10.0)
-      jekyll (>= 3.8, < 5.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-get-json (1.0.0)
+      deep_merge (~> 1.2)
+      jekyll (>= 3.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
+    jekyll-jupyter-notebook (0.0.5)
+      jekyll
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -102,6 +110,9 @@ GEM
     jekyll-target-blank (2.0.2)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
+    jekyll-toc (0.18.0)
+      jekyll (>= 3.9)
+      nokogiri (~> 1.12)
     jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
@@ -125,16 +136,17 @@ GEM
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
+    matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
     mini_racer (0.8.0)
       libv8-node (~> 18.16.0.0)
-    minitest (5.21.2)
+    minitest (5.22.2)
     multi_xml (0.6.0)
     mutex_m (0.2.0)
     namae (1.2.0)
       racc (~> 1.7)
-    nokogiri (1.16.0-x86_64-darwin)
+    nokogiri (1.16.2-x86_64-darwin)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -164,19 +176,22 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  classifier-reborn
   feedjira
   httparty
   jekyll
   jekyll-archives
-  jekyll-diagrams
   jekyll-email-protect
   jekyll-feed
+  jekyll-get-json
   jekyll-imagemagick
+  jekyll-jupyter-notebook
   jekyll-minifier
   jekyll-paginate-v2
   jekyll-scholar
   jekyll-sitemap
   jekyll-target-blank
+  jekyll-toc
   jekyll-twitter-plugin
   jemoji
   mini_racer
@@ -184,4 +199,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.15
+   2.4.22
