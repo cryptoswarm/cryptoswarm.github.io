@@ -166,6 +166,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - purgecss.config.js
 keep_files:
   - CNAME
   - .nojekyll
@@ -185,6 +186,10 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-get-json
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-toc
 
 # Sitemap settings
 defaults:
