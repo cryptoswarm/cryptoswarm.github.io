@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /me/
+permalink: /me
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 nav: true
 nav_order: 3
@@ -16,6 +16,7 @@ profile:
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+latest_posts: false # includes a list of the newest posts
 resume:
   title: View Full Résumé
   show: true
