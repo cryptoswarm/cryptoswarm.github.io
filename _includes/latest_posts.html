@@ -1,7 +1,7 @@
 <div class="news">
     {% if site.latest_posts != blank %}
     {% assign latest_posts_size = site.posts | size %}
-    {% assign is_any_post = false %}
+    <!-- {% assign is_any_post = false %} -->
     <div class="table-responsive" {% if site.latest_posts.scrollable and latest_posts_size> 3 %}
         style="max-height: 60vw"
         {% endif %}
@@ -15,7 +15,7 @@
             {% endif %}
             {% for item in latest_posts limit: latest_posts_limit %}
             {% if item.show %}
-            {% assign is_any_post = true %}
+            <!-- {% assign is_any_post = true %} -->
             <tr>
                 <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
                 <td>
@@ -40,8 +40,4 @@
     {% else %}
     <p>No posts so far...</p>
     {% endif %}
-    {% if is_any_post == false %}
-    <p>No posts so far...</p>
-    {% endif %}
-
 </div>
